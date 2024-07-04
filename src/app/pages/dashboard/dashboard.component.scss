@@ -1,0 +1,48 @@
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  min-height: 140px;
+  display: flex;
+  flex-direction: row;
+
+  .icon-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .text-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 16px;
+
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #1a1a1a;
+      margin: 0;
+      margin-bottom: 8px;
+
+      h3 {
+        text-align: start;
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      color: #666;
+      margin: 0;
+    }
+  }
+  
+}

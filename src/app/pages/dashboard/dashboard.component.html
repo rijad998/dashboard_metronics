@@ -1,0 +1,15 @@
+<!--begin::Row-->
+<div class="row g-5 g-xl-10 mb-5 mb-xl-10">
+  <div *ngFor="let card of cards; let i = index" [ngClass]="{'col-md-4 col-lg-4 col-xl-4 col-xxl-4 mb-md-5 mb-xl-10': true, 'mt-0': i >= 3}">
+    <div class="card">
+      <div class="icon-placeholder">
+        <img [src]="card.icon" alt="icon">
+      </div>
+      <div class="text-placeholder">
+        <h3 class="card-title">{{card.title}}</h3>
+        <p>{{card.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end::Row-->
